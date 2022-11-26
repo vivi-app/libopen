@@ -1,3 +1,4 @@
+//go:build darwin
 // +build darwin
 
 package open
@@ -10,6 +11,6 @@ func open(input string) *exec.Cmd {
 	return exec.Command("open", input)
 }
 
-func openWith(input string, appName string) *exec.Cmd {
+func openWith(input, appName string) *exec.Cmd {
 	return exec.Command("open", "-a", appName, input)
 }

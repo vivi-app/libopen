@@ -10,6 +10,7 @@
 	        OSX: "open"
 	    Windows: "start"
 	Linux/Other: "xdg-open"
+         Termux: "termux-open"
 
     This is a golang port of the node.js module:
     https://github.com/pwnall/node-open
@@ -17,11 +18,11 @@
 
 ## Documentation ##
 
-[http://godoc.org/github.com/skratchdot/open-golang/open](http://godoc.org/github.com/skratchdot/open-golang/open)
+[https://godoc.org/github.com/vivi-app/libopen/open](https://godoc.org/github.com/vivi-app/libopen/open)
 
 ## Import ##
 
-    import "github.com/skratchdot/open-golang/open"
+    import "github.com/vivi-app/libopen/open"
 
 ## Usage ##
 
@@ -65,7 +66,7 @@
     wait for the open command to complete.
 
 
-## License ##
+## License
 
-Copyright (c) 2013 skratchdot  
+Copyright (c) 2013 metafates  
 Licensed under the MIT license.

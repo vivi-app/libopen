@@ -1,4 +1,5 @@
-// +build !windows,!darwin
+//go:build !windows && !darwin && !android
+// +build !windows,!darwin,!android
 
 package open
 

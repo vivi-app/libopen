@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package open
@@ -26,7 +27,7 @@ func open(input string) *exec.Cmd {
 	return cmd
 }
 
-func openWith(input string, appName string) *exec.Cmd {
+func openWith(input, appName string) *exec.Cmd {
 	cmd := exec.Command("cmd", "/C", "start", "", appName, cleaninput(input))
 	//cmd.SysProcAttr = &syscall.SysProcAttr{HideWindow: true}
 	return cmd
