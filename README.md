@@ -68,5 +68,5 @@
 
 ## License
 
-Copyright (c) 2013 metafates  
+Copyright (c) 2022 metafates  
 Licensed under the MIT license.
